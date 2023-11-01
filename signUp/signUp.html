@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style/signUp.css">
+    <title>Happy Tree</title>
+    <script src="./jquery-3.6.4.min.js"></script>
+    <script src="./script/script.js" defer></script>
+    <script src="./script/font.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <div class="logo"><a href="../index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+            <div class="right">
+                <div class="bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navi">
+                    <div class="ham">
+                        <li><a href="../sub01/sub01.html">브랜드</a></li>
+                        <li><a href="../sub02/sub02.html">관엽식물</a></li>
+                        <li><a href="../sub03/sub03.html">다육식물</a></li>
+                        <li><a href="../sub04/sub04.html">키우는 법</a>
+                            <ul class="submenu">
+                                <li><a href="../sub04/sub04.html">관엽이</a></li>
+                                <li><a href="../sub05/sub05.html">다육이</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li><input type="search">
+                        <div class="icon"><a href="#"><img src="./img/search.png" alt="icon"></a></div>
+                    </li>
+                    <li><a href="../logIn/logIn.html"><img src="./img/log_in.png" alt="log_in"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="sign_up">
+        <div class="field">
+            <p>아이디</p>
+            <div class="wrap">
+                <input type="text">
+                <input class="btn" type="submit" value="아이디 중복 확인">
+            </div>
+        </div>
+        <div class="field">
+            <p>비밀번호</p>
+            <input type="password">
+        </div>
+        <div class="field">
+            <p>비밀번호 재확인</p>
+            <input type="password">
+        </div>
+        <div class="field">
+            <p>별명</p>
+            <input type="text">
+        </div>
+        <div class="field">
+            <p>생년월일</p>
+            <div class="birth">
+                <input type="text" placeholder="년(0000년)">
+                <select>
+                    <option value="">월</option>
+                    <option value="">1월</option>
+                    <option value="">2월</option>
+                    <option value="">3월</option>
+                    <option value="">4월</option>
+                    <option value="">5월</option>
+                    <option value="">6월</option>
+                    <option value="">7월</option>
+                    <option value="">8월</option>
+                    <option value="">9월</option>
+                    <option value="">10월</option>
+                    <option value="">11월</option>
+                    <option value="">12월</option>
+                </select>
+                <input type="number" placeholder="일">
+            </div>
+        </div>
+        <div class="field">
+            <p>이메일<span>&nbsp;(선택)</span></p>
+            <input type="text">
+        </div>
+        <div class="field">
+            <p>휴대전화</p>
+            <select>
+                <option value="">대한민국 +82</option>
+            </select>
+            <div class="wrap">
+                <input type="text" placeholder="전화번호 입력">
+                <input class="btn" type="submit" value="인증번호 받기">
+            </div>
+            <input type="text" placeholder="인증번호 입력">
+        </div>
+        <input class="submit" type="submit" value="회원가입">
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="box">
+                <figure class="logo"><a href="./index.html"><img src="./img/logo.svg" alt="logo"></a></figure>
+                <ul class="bt_menu">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">회원가입 및 탈퇴</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <p class="left">
+                    주식회사 해피트리 | 대표 : OOO | 서울시 OOO구 OOOO로 | 사업자번호 : OOOOOOOO<br>
+                    통신판매번호 : 제 2023-서울OO-OOOO호<br>
+                    개인정보보호책임자 : OOO<br>
+                </p>
+                <p class="right">
+                    <span><a href="#">인스타그램 | @OOOOOO_OO</a></span><br>
+                    <a href="#">전화문의 | 1588-OOOO</a><br>
+                    <a href="#">이메일| huou1228@naver.com</a><br>
+                </p>
+            </div>
+            <div class="box">copyright © A small happines in Daily life</div>
+        </div>
+    </footer>
+</body>
+</html>
